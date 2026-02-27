@@ -76,21 +76,21 @@ namespace C_Sharp_Study.Delegate_연습
         private int fAddSausage(int i)
         {
             int iPrice = 500;
-            lBoxOder.Items.Add($"[추가] 소세지 추가 (+{iPrice * i})");
+            lBoxOder.Items.Add($"[토핑] 소세지 추가 (+{iPrice * i})");
             return _iTotalPrice += (iPrice * i);
         }
 
         private int fAddPotato(int i)
         {
             int iPrice = 200;
-            lBoxOder.Items.Add($"[추가] 감자 추가 (+{iPrice * i})");
+            lBoxOder.Items.Add($"[토핑] 감자 추가 (+{iPrice * i})");
             return _iTotalPrice += (iPrice * i);
         }
 
         private int fAddCheese(int i)
         {
             int iPrice = 1500;
-            lBoxOder.Items.Add($"[추가] 치즈 추가 (+{iPrice * i})");
+            lBoxOder.Items.Add($"[토핑] 치즈 추가 (+{iPrice * i})");
             return _iTotalPrice += (iPrice * i);
         }
 
