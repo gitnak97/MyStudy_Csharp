@@ -16,10 +16,5 @@ namespace C_Sharp_Study._33강의
         {
             InitializeComponent();
         }
-
-        private void ucPanel1_SizeChanged(object sender, EventArgs e)
-        {
-            
-        }
     }
 }

@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace C_Sharp_Study._33강의
+namespace Furex_MES
 {
-    public partial class DynamicLayout : Form
+    public partial class UC_endUserLbl_Check : System.Windows.Forms.UserControl
     {
-        public DynamicLayout()
+        public UC_endUserLbl_Check()
         {
             InitializeComponent();
-        }
-
-        private void ucPanel1_SizeChanged(object sender, EventArgs e)
-        {
-            
         }
     }
 }

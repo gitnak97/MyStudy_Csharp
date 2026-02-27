@@ -66,7 +66,9 @@ namespace C_Sharp_Study
                 form = (Form)Activator.CreateInstance(formType);
 
                 form.TopLevel = false;
-                form.FormBorderStyle = FormBorderStyle.Sizable;
+                form.FormBorderStyle = FormBorderStyle.FixedSingle;
+                form.WindowState = FormWindowState.Maximized;
+                form.Dock = DockStyle.Fill;
 
                 _cache[formType] = form;
                 splitContainer1.Panel2.Controls.Add(form); // ★ add는 최초 1번만

@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace C_Sharp_Study._33강의
+namespace UserControl
 {
-    public partial class DynamicLayout : Form
+    public partial class Form1 : Form
     {
-        public DynamicLayout()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void ucPanel1_SizeChanged(object sender, EventArgs e)
-        {
-            
         }
     }
 }

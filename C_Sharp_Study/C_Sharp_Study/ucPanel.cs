@@ -8,18 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace C_Sharp_Study._33강의
+namespace C_Sharp_Study
 {
-    public partial class DynamicLayout : Form
+    public partial class ucPanel : UserControl
     {
-        public DynamicLayout()
+        public ucPanel()
         {
             InitializeComponent();
         }
 
-        private void ucPanel1_SizeChanged(object sender, EventArgs e)
+        private void ucPanel_SizeChanged(object sender, EventArgs e)
         {
-            
+            lblPanel.Text = string.Format("{0},{1}", lblPanel.Width, lblPanel.Height);
         }
     }
 }

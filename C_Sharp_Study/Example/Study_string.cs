@@ -8,18 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace C_Sharp_Study._33강의
+namespace Example
 {
-    public partial class DynamicLayout : Form
+    public partial class Study_string : Form
     {
-        public DynamicLayout()
+        public Study_string()
         {
             InitializeComponent();
         }
 
-        private void ucPanel1_SizeChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            
+            lbl_substring.Text = lbl_text.Text.Substring(3, 5);
         }
     }
 }
