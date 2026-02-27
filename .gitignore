@@ -12,3 +12,7 @@ packages/
 
 # Logs
 *.log
+=======
+bin/ 
+obj/ 
+.vs/ 
